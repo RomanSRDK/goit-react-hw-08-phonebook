@@ -34,5 +34,4 @@ export const store = configureStore({
   devTools: process.env.NODE_ENV === 'development',
 });
 
-// eslint-disable-next-line import/no-anonymous-default-export
 export const persistor = persistStore(store);

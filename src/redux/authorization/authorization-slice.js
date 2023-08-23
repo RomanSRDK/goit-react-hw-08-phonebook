@@ -6,6 +6,7 @@ const initialState = {
   token: null,
   siLoggedIn: false,
 };
+
 const authSlice = createSlice({
   name: 'auth',
   initialState,
@@ -49,4 +50,5 @@ const authSlice = createSlice({
     },
   },
 });
+
 export const authReducer = authSlice.reducer;

@@ -9,6 +9,7 @@ const items = createReducer([], {
   [remove.fulfilled]: (state, { payload }) =>
     state.filter(({ id }) => id !== payload),
 });
+
 const error = createReducer(null, {
   [get.pending]: () => null,
   [get.rejected]: (_, { payload }) => payload,
