@@ -6,7 +6,7 @@ import authorizationSelectors from 'redux/authorization/authorization-selectors'
 export default function PublicRoute({
   children,
   restricted = false,
-  redirectTo = '/',
+  redirectTo = '/contacts',
 }) {
   const isLoggedIn = useSelector(authorizationSelectors.getIsLoggedIn);
   const shouldRedirect = isLoggedIn && restricted;
