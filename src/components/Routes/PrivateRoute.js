@@ -5,5 +5,5 @@ import authorizationSelectors from 'redux/authorization/authorization-selectors'
 
 export default function PrivateRoute({ children }) {
   const isLoggedIn = useSelector(authorizationSelectors.getIsLoggedIn);
-  return <>{isLoggedIn ? children : <Navigate to="/contacts" />}</>;
+  return <>{isLoggedIn ? children : <Navigate to="/login" />}</>;
 }

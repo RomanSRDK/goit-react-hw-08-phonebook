@@ -1,6 +1,6 @@
 import { Suspense, useEffect } from 'react';
 import { useDispatch } from 'react-redux';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 import { Container } from './Container/Container';
 import PublicRoute from '../components/Routes/PublicRoute';
 import PrivateRoute from '../components/Routes/PrivateRoute';
@@ -25,6 +25,7 @@ export default function App() {
       <AppBar />
       <Suspense fallback={LoaderSpinner}>
         <Routes>
+          <Route path="*" element={<Navigate to="/contacts" />} />
           <Route
             path="/register"
             element={
