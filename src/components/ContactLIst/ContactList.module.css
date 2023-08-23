@@ -1,23 +1,22 @@
 .list {
-    list-style: none;
+  list-style: none;
 }
 
 .item {
-    display: flex;
-    justify-content: space-between;
-    font-size: 18px;
-    font-weight: 500;
-    border: 2px solid rgb(243, 199, 57);
-    background-color: white;
-    width: 450px;
-    align-items: center;
-    margin-bottom: 15px;
-    padding: 5px 20px;
-    box-shadow: 0px 4px 4px rgba(65, 80, 248, 0.233);
-    color: rgb(176, 120, 22);
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 500;
+  border: 2px solid rgb(243, 199, 57);
+  width: 450px;
+  align-items: center;
+  margin-bottom: 15px;
+  padding: 5px 20px;
+  box-shadow: 0px 4px 4px rgba(65, 80, 248, 0.233);
+  color: rgb(248, 160, 43);
 }
 
 .rightP {
-    color: rgb(33, 54, 173);
-    margin-right: 50px;
+  color: #9a9aeb;
+  margin-right: 50px;
 }

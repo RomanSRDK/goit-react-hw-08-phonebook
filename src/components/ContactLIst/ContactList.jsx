@@ -14,7 +14,7 @@ export default function ContactList() {
   const dispatch = useDispatch();
   console.log(contacts);
   const normalizedContacts = contacts.filter(({ name }) =>
-    name.toLowerCase().includes(filter.toLowerCase())
+    name.toLowerCase().includes(filter.toLowerCase().trim())
   );
   useEffect(() => {
     dispatch(get());

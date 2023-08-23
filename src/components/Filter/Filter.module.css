@@ -1,33 +1,26 @@
 .input {
-    font-size: 20px;
-    display: block;
-    width: 250px;
-    height: 40px;
-    padding: 15px;
-    color: #fff;
-    background-color: rgb(249, 216, 71);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    box-sizing: border-box;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-    border-radius: 4px;
-    margin-bottom: 100px;
-    margin-top: 20px;
-
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  font-size: 20px;
+  display: block;
+  width: 250px;
+  height: 40px;
+  padding: 15px;
+  color: #fff;
+  background-color: rgb(248, 160, 43);
+  border: 1px solid rgba(249, 216, 71, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  margin-bottom: 15px;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-input:focus {
-    outline: none;
-    border-color: rgb(37, 19, 175);
-}
-
-input::placeholder {
-    display: inline-block;
-    color: rgba(255, 255, 255, 0.6);
+.input::placeholder {
+  display: inline-block;
+  color: rgb(255, 255, 255);
 }
 
 .label {
-    font-size: 24px;
-    font-weight: 500;
-    color: rgb(241, 170, 47);
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(241, 170, 47);
 }
