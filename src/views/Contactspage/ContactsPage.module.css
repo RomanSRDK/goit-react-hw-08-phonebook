@@ -1,0 +1,13 @@
+.title {
+    justify-content: center;
+    display: flex;
+}
+
+.container {
+    margin: 100px auto;
+    padding: 40px;
+    max-width: 750px;
+    border-radius: 5px;
+    background-color: #19c23e;
+    box-shadow: rgb(0 0 0 / 50%) 0px 0px 10px 5px;
+}

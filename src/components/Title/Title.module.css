@@ -1,0 +1,8 @@
+.title {
+    font-size: 32px;
+    color: rgb(33, 33, 241);
+    margin: 0;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-shadow: 2px 3px 3px rgba(239, 239, 239, 0.359);
+}
